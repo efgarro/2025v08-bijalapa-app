@@ -1,0 +1,7 @@
+# wrangler.toml
+name = "2025v08-bijalapa-app"
+pages_build_output_dir = "./dist"
+compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2025-06-18" 
+
+
