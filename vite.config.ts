@@ -16,14 +16,19 @@ export default defineConfig({
   server: {
     port: 3030,
   },
-  plugins: [
-    tsConfigPaths(),
-    tanstackStart({ customViteReactPlugin: true }),
-    viteReact(),
-  ],
+  // plugins: [
+  //   tsConfigPaths(),
+  //   tanstackStart({ customViteReactPlugin: true }),
+  //   viteReact(),
+  // ],
   // plugins: [
   //   tsConfigPaths(),
   //   tanstackStart({ customViteReactPlugin: true, target: 'netlify' }),
   //   viteReact(),
   // ],
+  plugins: [
+    tsConfigPaths(),
+    tanstackStart({ customViteReactPlugin: true, target: 'cloudflare-module' }),
+    viteReact(),
+  ],
 });

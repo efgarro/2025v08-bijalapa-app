@@ -77,7 +77,7 @@ function Home() {
     // >
     //   Add 1 to {state}?
     // </button>
-    <p>Hellow {data.title}`</p>
+    <p>Hellow {data.title}</p>
     // <p>`Hello ${state as any}`</p>
   );
 }
