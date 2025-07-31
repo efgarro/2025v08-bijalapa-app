@@ -1,0 +1,1 @@
+import{R as t,j as r,c as n,a as o}from"./main-D5po7FpW.js";const s=n("src_routes_index_tsx--getUser_createServerFn_handler","/_serverFn"),a=o({method:"GET"}).handler(s);a();const d=function(){const e=t.useLoaderData();return console.log(e),r.jsxs("p",{children:["Hellow ",e.title]})};export{d as component};
